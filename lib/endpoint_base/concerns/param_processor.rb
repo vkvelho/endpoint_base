@@ -1,4 +1,5 @@
 require 'json'
+require 'active_support/core_ext/hash'
 
 module EndpointBase::Concerns
   module ParamProcessor
